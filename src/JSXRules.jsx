@@ -28,6 +28,7 @@ function JSXRules() {
         {/* one parent element */}
         
         <h1>hello {name} </h1>
+        
 
         {10+20}
         10 + 20

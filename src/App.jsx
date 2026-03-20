@@ -9,6 +9,8 @@ import Nav, {  Header as MyHeader } from './Component/Twocomp'
 import JSXRules from './JSXRules'
 import ParentRerender from './Re-render/ParentRerender'
 import ConditionalRendering from './ConditionalRendering'
+import Events from './Events'
+import StateExample from './StateExample'
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
 function App() {
@@ -30,7 +32,11 @@ function App() {
       {/* <JSXRules/> */}
 
       {/* <ParentRerender/> */}
-      <ConditionalRendering/>
+      {/* <ConditionalRendering/> */}
+
+      {/* <Events/> */}
+      <StateExample/>
+
     </>
   )
 }
