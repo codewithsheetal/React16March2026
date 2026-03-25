@@ -11,6 +11,10 @@ import ParentRerender from './Re-render/ParentRerender'
 import ConditionalRendering from './ConditionalRendering'
 import Events from './Events'
 import StateExample from './StateExample'
+import ParentCompprops from './Props/Simpleprops/ParentCompprops'
+import ParentPropsfunction from './Props/pass function/ParentPropsfunction'
+import ParentCompStateProps from './Props/State as props/ParentCompStateProps'
+import ParentCompch from './Props/children props/ParentCompch'
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
 function App() {
@@ -35,7 +39,13 @@ function App() {
       {/* <ConditionalRendering/> */}
 
       {/* <Events/> */}
-      <StateExample/>
+      {/* <StateExample/> */}
+
+      {/* <ParentCompprops/> */}
+      {/* <ParentPropsfunction/> */}
+      {/* <ParentCompStateProps/> */}
+      <ParentCompch/>
+      
 
     </>
   )
