@@ -15,6 +15,10 @@ import ParentCompprops from './Props/Simpleprops/ParentCompprops'
 import ParentPropsfunction from './Props/pass function/ParentPropsfunction'
 import ParentCompStateProps from './Props/State as props/ParentCompStateProps'
 import ParentCompch from './Props/children props/ParentCompch'
+import SimpleListObjectMap from './List/SimpleListObjectMap'
+import SortList from './List/SortList'
+import StateList from './List/StateList'
+import GetProductsfromfile from './one js file for data/GetProductsfromfile'
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
 function App() {
@@ -44,7 +48,15 @@ function App() {
       {/* <ParentCompprops/> */}
       {/* <ParentPropsfunction/> */}
       {/* <ParentCompStateProps/> */}
-      <ParentCompch/>
+      {/* <ParentCompch/> */}
+
+      {/* list  */}
+      {/* <SimpleListObjectMap/> */}
+
+      {/* <SortList/> */}
+
+      {/* <StateList/> */}
+      <GetProductsfromfile/>
       
 
     </>
