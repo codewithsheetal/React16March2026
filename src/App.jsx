@@ -19,6 +19,10 @@ import SimpleListObjectMap from './List/SimpleListObjectMap'
 import SortList from './List/SortList'
 import StateList from './List/StateList'
 import GetProductsfromfile from './one js file for data/GetProductsfromfile'
+import Form from './Form/Form'
+import DropDown from './Form/DropDown'
+import Radio from './Form/Radio'
+import CheckBox from './Form/CheckBox'
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
 function App() {
@@ -56,9 +60,14 @@ function App() {
       {/* <SortList/> */}
 
       {/* <StateList/> */}
-      <GetProductsfromfile/>
+      {/* <GetProductsfromfile/> */}
       
+        {/* Form handling  */}
+        {/* <Form/> */}
+        {/* <DropDown/> */}
+        {/* <Radio/> */}
 
+        <CheckBox/>
     </>
   )
 }
