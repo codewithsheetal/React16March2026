@@ -23,6 +23,15 @@ import Form from './Form/Form'
 import DropDown from './Form/DropDown'
 import Radio from './Form/Radio'
 import CheckBox from './Form/CheckBox'
+import InlineCss from './CSS/InlineCss'
+import CssasaObject from './CSS/CssasaObject'
+import Normal from './CSS/NormalCss/Normal'
+import Conflicts2 from './CSS/Conflicts/Conflicts2'
+import Conflicts1 from './CSS/Conflicts/Conflicts1'
+import Modulecss from './CSS/Conflicts/Cssmodules/Modulecss'
+import Dynamiccss from './CSS/Dynamiccss'
+import Task from './CSS/Task/Task'
+
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
 function App() {
@@ -67,7 +76,21 @@ function App() {
         {/* <DropDown/> */}
         {/* <Radio/> */}
 
-        <CheckBox/>
+        {/* <CheckBox/> */}
+
+        {/* css  */}
+        {/* <InlineCss/> */}
+
+        {/* <CssasaObject/> */}
+        {/* <Normal/> */}
+        
+        {/* <Conflicts2/>
+        <Conflicts1/> */}
+
+        {/* <Modulecss/> */}
+          {/* <Dynamiccss/> */}
+          <Task/>
+
     </>
   )
 }
