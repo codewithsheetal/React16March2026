@@ -31,6 +31,7 @@ import Conflicts1 from './CSS/Conflicts/Conflicts1'
 import Modulecss from './CSS/Conflicts/Cssmodules/Modulecss'
 import Dynamiccss from './CSS/Dynamiccss'
 import Task from './CSS/Task/Task'
+import TailwindCss from './CSS/TailwindCss'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -89,7 +90,8 @@ function App() {
 
         {/* <Modulecss/> */}
           {/* <Dynamiccss/> */}
-          <Task/>
+          {/* <Task/> */}
+          <TailwindCss/>
 
     </>
   )
