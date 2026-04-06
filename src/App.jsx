@@ -32,6 +32,9 @@ import Modulecss from './CSS/Conflicts/Cssmodules/Modulecss'
 import Dynamiccss from './CSS/Dynamiccss'
 import Task from './CSS/Task/Task'
 import TailwindCss from './CSS/TailwindCss'
+import RouteExample from './Routing/RouteExample'
+import Home from './Routing/pages/Home'
+import NavigateButton from './Routing/NavigateButton'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -91,7 +94,11 @@ function App() {
         {/* <Modulecss/> */}
           {/* <Dynamiccss/> */}
           {/* <Task/> */}
-          <TailwindCss/>
+          {/* <TailwindCss/> */}
+
+          <RouteExample/>
+          <NavigateButton/>
+          {/* <Home/> */}
 
     </>
   )
