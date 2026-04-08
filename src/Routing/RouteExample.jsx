@@ -6,6 +6,9 @@ import Home from './pages/Home'
 import Layout from './NestedRouting/Layout'
 import Profile from './NestedRouting/Profile'
 import Settings from './NestedRouting/Settings'
+import Login from './PrivateRoute/Login'
+import PrivateRoute from './PrivateRoute/PrivateRoute'
+import DynamicRouteAccess from './Dynamic Routing/DynamicRouteAccess'
 
 function RouteExample() {
     return (
@@ -27,6 +30,20 @@ function RouteExample() {
                 <Route path ="profile" element={<Profile/>} />
                 <Route path ="Setting" element={<Settings/>} />
             </Route>
+
+            {/* private Routing  */}
+
+            <Route path ="/login" element={<Login/>}/>
+
+            <Route path="/profile" element ={
+                <PrivateRoute>
+                    <Profile/>
+                </PrivateRoute>
+            }/>
+
+            {/* Dynamic Route  */}
+
+            <Route path = "/dynamic/:id" element ={<DynamicRouteAccess/>}/>
         </Routes>
         </>
     )

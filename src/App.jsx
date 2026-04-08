@@ -35,6 +35,7 @@ import TailwindCss from './CSS/TailwindCss'
 import RouteExample from './Routing/RouteExample'
 import Home from './Routing/pages/Home'
 import NavigateButton from './Routing/NavigateButton'
+import ProductList from './Routing/Dynamic Routing/ProductList'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -97,7 +98,9 @@ function App() {
           {/* <TailwindCss/> */}
 
           <RouteExample/>
-          <NavigateButton/>
+          {/* <NavigateButton/> */}
+
+          <ProductList/>
           {/* <Home/> */}
 
     </>
