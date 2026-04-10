@@ -36,6 +36,9 @@ import RouteExample from './Routing/RouteExample'
 import Home from './Routing/pages/Home'
 import NavigateButton from './Routing/NavigateButton'
 import ProductList from './Routing/Dynamic Routing/ProductList'
+import SimpleUseEffect from './useEffect/SimpleUseEffect'
+import InterViewuseEffect from './useEffect/InterViewuseEffect'
+import MountUnmonunt from './useEffect/LifeCycle/MountUnmonunt'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -97,12 +100,18 @@ function App() {
           {/* <Task/> */}
           {/* <TailwindCss/> */}
 
-          <RouteExample/>
+          {/* <RouteExample/> */}
           {/* <NavigateButton/> */}
 
-          <ProductList/>
+          {/* <ProductList/> */}
           {/* <Home/> */}
 
+
+          {/* useEffect  */}
+          {/* <SimpleUseEffect/> */}
+          {/* <InterViewuseEffect/> */}
+
+          <MountUnmonunt/>
     </>
   )
 }

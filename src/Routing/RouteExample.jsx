@@ -19,6 +19,7 @@ function RouteExample() {
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/setting' element={<Settings/>}/>
+            <Route path='/*' element={<h1>Page not Found</h1>}/>
             <Route path='/multi' element={<>
                 <About/>
                 <Contact/>
