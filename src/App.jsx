@@ -39,6 +39,8 @@ import ProductList from './Routing/Dynamic Routing/ProductList'
 import SimpleUseEffect from './useEffect/SimpleUseEffect'
 import InterViewuseEffect from './useEffect/InterViewuseEffect'
 import MountUnmonunt from './useEffect/LifeCycle/MountUnmonunt'
+import UseRefExample from './useRef/UseRefExample'
+import StorePrevValue from './useRef/StorePrevValue'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -111,7 +113,11 @@ function App() {
           {/* <SimpleUseEffect/> */}
           {/* <InterViewuseEffect/> */}
 
-          <MountUnmonunt/>
+          {/* <MountUnmonunt/> */}
+
+          {/* useRef hook */}
+          {/* <UseRefExample/> */}
+          <StorePrevValue/>
     </>
   )
 }
