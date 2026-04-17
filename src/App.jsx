@@ -41,6 +41,8 @@ import InterViewuseEffect from './useEffect/InterViewuseEffect'
 import MountUnmonunt from './useEffect/LifeCycle/MountUnmonunt'
 import UseRefExample from './useRef/UseRefExample'
 import StorePrevValue from './useRef/StorePrevValue'
+import InputForm from './Reducer/InputForm'
+import CounterAppUI from './Reducer/CounterAppUI'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -117,7 +119,13 @@ function App() {
 
           {/* useRef hook */}
           {/* <UseRefExample/> */}
-          <StorePrevValue/>
+          {/* <StorePrevValue/> */}
+
+
+          {/* Reducer  */}
+
+          {/* <InputForm/> */}
+          <CounterAppUI/>
     </>
   )
 }
