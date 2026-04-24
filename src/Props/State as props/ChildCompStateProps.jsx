@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ChildCompStateProps({text,setText}) {
+    
     return (
         <>
         <h2>child -{text}</h2>

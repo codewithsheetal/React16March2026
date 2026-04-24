@@ -1,0 +1,13 @@
+A --> B--> C--> D -->E-->F 
+
+props drilling 
+
+step 1 create Context
+
+step 2 provider (Provide Data)
+
+step 3 consumer  (consume data)
+
+
+context/ --> all context file (Family, User,Theme...)
+

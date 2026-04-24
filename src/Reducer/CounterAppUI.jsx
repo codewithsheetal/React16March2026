@@ -14,9 +14,12 @@ function CounterAppUI() {
         <input type="text" value={value} onChange={(e)=>setValue(Number(e.target.value))}/>
 
         <button onClick={()=>dispatch({type:"INC_BY_Random", payload: value })}>Inc by Random</button>
+        {/* <button onClick={()=>dispatch({type:"INC_BY_Random", payload: 20 })}>Inc by Random</button> */}
         <button onClick={()=>dispatch({type:"RESET"})}>Reset</button>
         </>
     )
 }
 
 export default CounterAppUI
+
+

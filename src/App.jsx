@@ -43,6 +43,11 @@ import UseRefExample from './useRef/UseRefExample'
 import StorePrevValue from './useRef/StorePrevValue'
 import InputForm from './Reducer/InputForm'
 import CounterAppUI from './Reducer/CounterAppUI'
+import FamilyContext from './ContextAPI/FamilyContext'
+import GrandParentContextExample from './ContextAPI/GrandParentContextExample'
+import ChildContextExample from './ContextAPI/ChildContextExample'
+import ContextandProvider from './ContextAPI/ContextandProvider'
+import ParentContextExample from './ContextAPI/ParentContextExample'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -125,7 +130,20 @@ function App() {
           {/* Reducer  */}
 
           {/* <InputForm/> */}
-          <CounterAppUI/>
+          {/* <CounterAppUI/> */}
+          {/* <GrandParentContextExample/> */}
+          {/* const[user,setuser]= useState(); */}
+          {/* <FamilyContext.Provider value="sheetal"> */}
+          {/* <FamilyContext.Provider value={{name:"sheetal", id : 20}}> */}
+          {/* <FamilyContext.Provider value={{user,setUser}}> */}
+            {/* <ChildContextExample/> */}
+
+          {/* </FamilyContext.Provider> */}
+
+          <GrandParentContextExample/>
+          {/* <ContextandProvider>
+            <ParentContextExample/>
+          </ContextandProvider> */}
     </>
   )
 }

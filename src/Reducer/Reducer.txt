@@ -1,0 +1,8 @@
+step 1  create Reducer 
+step 2 initial state
+step 3 Reducer Logic
+step 4 use Reducer     const [state,dispatch]= useReducer(CounterReducer,initialState)
+step 5 dispatch action dispatch({type:"INC"}) // send action to Reducer
+step 6 display data (update UI) {state.count}
+
+RI RUDD 
