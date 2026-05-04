@@ -48,6 +48,10 @@ import GrandParentContextExample from './ContextAPI/GrandParentContextExample'
 import ChildContextExample from './ContextAPI/ChildContextExample'
 import ContextandProvider from './ContextAPI/ContextandProvider'
 import ParentContextExample from './ContextAPI/ParentContextExample'
+import Toggleused from './custom hook/Toggleused'
+import Counterusinghook from './custom hook/Counterusinghook'
+import LazyLoadingcomp from './LazyLoading/LazyLoadingcomp'
+import LazyLoadingWithRouter from './LazyLoading/LazyLoadingWithRouter'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -140,10 +144,20 @@ function App() {
 
           {/* </FamilyContext.Provider> */}
 
-          <GrandParentContextExample/>
+          {/* <GrandParentContextExample/> */}
           {/* <ContextandProvider>
             <ParentContextExample/>
           </ContextandProvider> */}
+
+          {/* custom hook  */}
+          {/* <Toggleused/> */}
+          {/* <Counterusinghook/> */}
+
+          {/* lazy loading  */}
+          {/* <LazyLoadingcomp/> */}
+          <LazyLoadingWithRouter/>
+
+
     </>
   )
 }
