@@ -52,6 +52,9 @@ import Toggleused from './custom hook/Toggleused'
 import Counterusinghook from './custom hook/Counterusinghook'
 import LazyLoadingcomp from './LazyLoading/LazyLoadingcomp'
 import LazyLoadingWithRouter from './LazyLoading/LazyLoadingWithRouter'
+import ParentReactMemo from './ReactMemo/ParentReactMemo'
+import GetApidata from './API/GetApidata'
+import PostApi from './API/PostApi'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -155,8 +158,11 @@ function App() {
 
           {/* lazy loading  */}
           {/* <LazyLoadingcomp/> */}
-          <LazyLoadingWithRouter/>
-
+          {/* <LazyLoadingWithRouter/> */}
+            
+            {/* <ParentReactMemo/> */}
+            {/* <GetApidata/> */}
+            <PostApi/>  
 
     </>
   )

@@ -7,6 +7,7 @@ function ReactLifeCycle() {
     // Unmounting:-comp expired (comp removed from dom)
 
 
+    
     useEffect(() => {
         //write code which you want to run when comp is mount
         console.log("comp Mounted");

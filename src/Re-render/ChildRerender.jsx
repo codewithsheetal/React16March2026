@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function ChildRerender() {
-
-    console.log("child render");
+function ChildRerender({name}) {
+    console.log(" child render");
     
-    return (
-        <>
-        <h2>child comp</h2>
-        </>
-    )
+  return (
+    <div>
+     <h1>child-{name}</h1>
+    
+    </div>
+  );
 }
 
-export default ChildRerender
+export default ChildRerender;

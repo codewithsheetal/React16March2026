@@ -11,7 +11,7 @@ function ParentRerender() {
         <h1>parent comp</h1>
         <h1>count : {count}</h1>
         <button onClick={()=>setCount(count+1)}>count </button>
-        <ChildRerender/>
+        <ChildRerender name="sheetal"/>
         </>
     )
 }

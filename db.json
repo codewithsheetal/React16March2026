@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Sheetal",
+      "email": "sheetal@gmail.com",
+      "city": "Vadodara"
+    },
+    {
+      "id": "2",
+      "name": "Sanvi",
+      "email": "sanvi@gmail.com",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": "3",
+      "name": "Sheenvi",
+      "email": "sheenvi@gmail.com",
+      "city": "Surat"
+    },
+    {
+      "name": "asd",
+      "email": "a@a.com",
+      "id": "iBk5fyVIMuc"
+    },
+    {
+      "name": "qwe",
+      "email": "q@q.com",
+      "id": "HI6fdASeIEc"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "React Basics",
+      "description": "Introduction to React JS",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "title": "useEffect Hook",
+      "description": "Understanding side effects in React",
+      "userId": 2
+    },
+    {
+      "id": "3",
+      "title": "Context API",
+      "description": "State management in React",
+      "userId": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Laptop",
+      "price": 55000,
+      "category": "Electronics"
+    },
+    {
+      "id": "2",
+      "title": "Headphones",
+      "price": 2500,
+      "category": "Accessories"
+    },
+    {
+      "id": "3",
+      "title": "Keyboard",
+      "price": 1500,
+      "category": "Computer"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
