@@ -7,26 +7,19 @@
       "city": "Vadodara"
     },
     {
-      "id": "2",
-      "name": "Sanvi",
-      "email": "sanvi@gmail.com",
-      "city": "Ahmedabad"
+      "name": "pratik",
+      "email": "sanvi@asd.com",
+      "id": "2"
     },
     {
-      "id": "3",
+      "name": "sanvi",
+      "email": "sheenvi@asd.com",
+      "id": "3"
+    },
+    {
       "name": "Sheenvi",
-      "email": "sheenvi@gmail.com",
-      "city": "Surat"
-    },
-    {
-      "name": "asd",
-      "email": "a@a.com",
-      "id": "iBk5fyVIMuc"
-    },
-    {
-      "name": "qwe",
-      "email": "q@q.com",
-      "id": "HI6fdASeIEc"
+      "email": "sheenvi@s.com",
+      "id": "4"
     }
   ],
   "posts": [

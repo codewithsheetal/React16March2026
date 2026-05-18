@@ -55,6 +55,7 @@ import LazyLoadingWithRouter from './LazyLoading/LazyLoadingWithRouter'
 import ParentReactMemo from './ReactMemo/ParentReactMemo'
 import GetApidata from './API/GetApidata'
 import PostApi from './API/PostApi'
+import APIdata from './API/APIdata'
 
 // import Twocomp, { Footer,Header } from './Component/Twocomp'
 
@@ -162,7 +163,8 @@ function App() {
             
             {/* <ParentReactMemo/> */}
             {/* <GetApidata/> */}
-            <PostApi/>  
+            {/* <PostApi/>   */}
+            <APIdata/>
 
     </>
   )
